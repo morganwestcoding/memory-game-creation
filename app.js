@@ -85,8 +85,8 @@ document.addEventListener('DOMContentLoaded', () => {
             cards[optionTwoID].setAttribute('src', 'images/white-memory-game-sq.jpg')
 
     // remove the click event listener from the cards that were matched
-            this.removeEventListemer('click', flipcard)
-            this.removeEventListener('click', flipcard)
+            this.removeEventListener('click', flipCard)
+            this.removeEventListener('click', flipCard)
            
             cardsWon.push(cardsChosen)  
         } else {
